@@ -3,7 +3,7 @@
 This repository contains a simple and intuitive To-Do web app developed using HTML, CSS, JavaScript, and Bootstrap. The app provides essential task management functionalities, allowing users to add, delete, and edit tasks effortlessly. It also includes additional features such as a "Finished" button to mark tasks as completed and a "Get Pending Tasks" button that filters and displays only the pending tasks.
 
 # Screenshot
-    ![Screenshot](https://drive.google.com/file/d/1GiHMG_nr_-bsrUJ-zw72OYziw3IVIwzz/view)
+    https://drive.google.com/file/d/1GiHMG_nr_-bsrUJ-zw72OYziw3IVIwzz/view
 
 
 ## Features
