@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+.btn {
+    font-weight: 400;
+}
+
+.card {
+    padding: 30px;
+    width: 1200px;
+    min-height: 400px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-search {
+  
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.todo-detail {
+    text-align: justify;
+}
+
+.custom-width {
+    margin-bottom: 12px;
+    border: solid 1px rgba(0, 0, 0, 0.144);
+    border-radius: 5.5px;
+    outline-color: rgba(0, 106, 255, 0.44);
+    outline-width: 1px;
+    padding: 3px;
+}

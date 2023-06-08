@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do App</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body class="bg-light">
+
+    <!-- Page Title -->
+        <div class="container text-center my-4">
+            <h1 class="display-5 fw-normal">To-Do <span class="fw-lighter">App</span></h1>
+        </div>
+    
+    <!-- Box-parent -->
+        <div class="box">
+
+            <!-- card -->
+            <div class="card shadow-lg p-4">
+
+                <!-- content -->
+                <div class="container-fluid">
+
+                    <!-- Search-box & Buttons -->
+                    <div class="row d-flex justify-content-center align-items-center mt-3 mb-5">
+                        <div class="col-12 m-1 col-sm-6 form-group">
+                            <input type="text" class="form-control text-center" id="add-todo" placeholder="Add a To-Do...">
+                        </div>
+                        <button class="save-todo col-3 col-sm-1 py-2 px-0 my-1 me-1 btn btn-primary shadow disabled" id="save-todo">
+                            Save
+                        </button>
+                        <button class="col-8 col-sm-3 px-0 py-2 btn btn-warning shadow" id="get-to-do">
+                            Get pending To-Do
+                        </button>
+                    </div>
+                    
+                <!-- Heading -->
+                    <div class="todo-heading container-fluid mt-4" id="todo-heading">
+                        <div class="row text-center">
+                            <h6 class="col-sm-1 m-0 mb-2 p-0 fw-bold">
+                                No.
+                            </h6>
+                            <h6 class="col-sm-5 mb-2 fw-bold">
+                                To-Do item
+                            </h6>
+                            <h6 class="col-sm-2 fw-bold mb-2">
+                                Status
+                            </h6>
+                            <h6 class="col-sm-4 fw-bold mb-2">
+                                Actions
+                            </h6>
+                        </div>
+                        <!-- Seperation line -->
+                        <div class="container-xl">
+                            <hr class="border border-primary-subtle">
+                        </div>
+                    </div>
+                
+                
+                <!-- To-Do list -->
+                <div class="todo-data-list" id="todo-data-list"> 
+                        <!-- <div class="row">
+                            <h6 class="todo-no col-1 m-0 p-0 text-center">
+                                1.
+                            </h6>
+                            <p class="todo-detail text-muted col-11 col-sm-5">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, laboriosam!
+                            </p>
+                            <p class="todo-status text-primary col-12 col-sm-2 text-center">
+                                In progress
+                            </p>
+                            <div class="todo-actions col-sm-4 align-items-center">
+                                <button class="col-12 col-sm-3 py-1 px-0 mb-1 me-1 btn btn-danger shadow">
+                                    Delete
+                                </button>
+                                <button class="col-12 col-sm-4 py-1 px-0 mb-1 me-1 btn btn-success shadow">
+                                    Finished
+                                </button>
+                                <button class="col-12 col-sm-3 py-1 px-0 mb-1 me-1 btn btn-warning shadow">
+                                    Edit
+                                </button>
+                            </div>
+                            
+                            <hr>
+                            
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Bootstrap script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <!-- Javascript -->
+        <script src="todo.js"></script>
+    </body>
+</html>
