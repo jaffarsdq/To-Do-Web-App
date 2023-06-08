@@ -30,6 +30,7 @@ saveButton.addEventListener("click", function getTextAndAddTodo() {
     todos.push(todo);
     addToDo(todo,todos.length);
     todoInputBar.value = "";
+    saveButton.classList.add("disabled");
 })
 
 // re-render todo
